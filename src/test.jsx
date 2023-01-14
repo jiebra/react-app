@@ -11,9 +11,9 @@ function decrease(){
     }
 function reset(){
     setCount(Count*0)
-}
+};
     return(
-        <div> 
+        <div className='pp'> 
             <h1> Countering: {Count} </h1> 
         <button onClick={decrease}>decrease</button>
         <button onClick={increase}>increase</button>
